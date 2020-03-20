@@ -1,0 +1,66 @@
+Configuration	lab6
+STM32CubeMX 	5.3.0
+Date	10/20/2019
+MCU	STM32F103RCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+14	PA0-WKUP	GPIO_EXTI0	KEY_WK
+25	PC5	GPIO_EXTI5	KEY0
+41	PA8	GPIO_Output	LED0
+50	PA15	GPIO_EXTI15	KEY1
+54	PD2	GPIO_Output	LED1
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+14	PA0-WKUP	GPIO_EXTI0	KEY_WK
+25	PC5	GPIO_EXTI5	KEY0
+41	PA8	GPIO_Output	LED0
+50	PA15	GPIO_EXTI15	KEY1
+54	PD2	GPIO_Output	LED1
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : lab6
+Project Folder : D:\worksoftware\STM32CubeIDE_1.0.2\workplace\lab6
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
