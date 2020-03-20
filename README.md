@@ -6,4 +6,4 @@
 
 ![屏幕快照3](https://github.com/Hello-GS/STM32-project/blob/master/5.JPG)
 
-![屏幕快照4]（https://github.com/Hello-GS/STM32-project/blob/master/IMG_3739.JPG）
+![屏幕快照4](https://github.com/Hello-GS/STM32-project/blob/master/IMG_3739.JPG)
